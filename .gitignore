@@ -1,0 +1,16 @@
+cat > .gitignore << 'EOF'
+# IntelliJ
+.idea/
+*.iml
+*.iws
+
+# Maven
+target/
+*.class
+*.jar
+*.war
+
+# OS
+.DS_Store
+Thumbs.db
+EOF
